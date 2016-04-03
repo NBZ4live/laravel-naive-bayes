@@ -4,7 +4,7 @@ namespace Tsuzukit\NaiveBayes;
 
 use Illuminate\Support\ServiceProvider;
 
-class NaiveBayseServiceProvider extends ServiceProvider
+class NaiveBayesServiceProvider extends ServiceProvider
 {
 
     /**

@@ -14,7 +14,7 @@ class Word
     private $wordModelName;
 
     public function __construct($categoryModelName = 'Tsuzukit\NaiveBayes\Model\Category',
-                                $wordModelName = 'Tsuzukit\NaiveBayse\Model\Word')
+                                $wordModelName = 'Tsuzukit\NaiveBayes\Model\Word')
     {
         $this->categoryModelName = $categoryModelName;
         $this->wordModelName = $wordModelName;

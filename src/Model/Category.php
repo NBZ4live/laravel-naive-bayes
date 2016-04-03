@@ -28,7 +28,7 @@ class Category extends Model
      */
     public function words()
     {
-        return $this->hasMany('Tsuzukit\NaiveBayse\Model\Word', 'bayes_category_id');
+        return $this->hasMany('Tsuzukit\NaiveBayes\Model\Word', 'bayes_category_id');
     }
 
     public static function getByName($name)

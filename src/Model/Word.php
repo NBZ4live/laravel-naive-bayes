@@ -29,7 +29,7 @@ class Word extends Model
      */
     public function category()
     {
-        return $this->belongsTo('Tsuzukit\NaiveBayse\Model\Category');
+        return $this->belongsTo('Tsuzukit\NaiveBayes\Model\Category');
     }
 
     public static function getByWordAndCategoryId($word, $category)
@@ -59,7 +59,7 @@ class Word extends Model
         ]);
     }
 
-    public static function getByCategoryId($category)
+    public static function getByCategory($category)
     {
         return static::where([
             'bayes_category_id' => $category->id,
