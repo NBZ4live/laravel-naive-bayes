@@ -1,10 +1,9 @@
 {
-    "name": "tsuzukit/naive-bayse",
+    "name": "tsuzukit/laravel-naive-bayes",
     "authors": [
         {
             "name": "Tomoaki Tsuzuki",
-            "email": "colorble@gmail.com",
-	    "role": "Developer"
+            "email": "colorble@gmail.com"
         }
     ],
     "require": {},
